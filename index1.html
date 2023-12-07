@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrionis Landing Page</title>
+
+    <link rel="stylesheet" href="styles1.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+      <!-----HEADER SECTION------>
+    <div class="container w-full">
+
+ 
+<nav class="container w-full">
+    <div class="header__wrapper p-3 w-full flex justify-around items-center">
+        <div class="logo flex gap-1">
+            <i class="ri-leaf-fill"></i>
+  <h1>Agri<span class="logo__style">Onis</span></h1>
+        </div>
+       
+        
+        <div class="navLink items-center " id="navLink"> 
+
+            <i class="ri-close-line  showicon"  onclick="hideMenu()"></i>
+
+            <ul  class="font-semibold">
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#">About Us</a></li>
+             
+                <li><a href="#">Services</a></li>
+
+                <li><a href="#">Contact Us</a></li>
+              
+            </ul>
+
+            <div class="side__button">
+                <button class="side__btn">Register Here</button>
+            </div>
+
+       
+          
+    
+        </div>
+
+
+        <i class="ri-menu-line  showicon" onclick="showMenu()"></i>
+
+    </div>
+</nav>
+
+  <!-----HERO SECTION------>
+
+  <section class="hero  container">
+       
+    <div class="slider" data-aos="fade-right" 
+    data-aos-easing="ease-in-sine" data-aos-delay="200"
+     data-aos-duration="600"
+    >
+        <div class="load">
+
+        </div>
+
+<div class="content">
+<div class="principal">
+<h1  data-aos="fade-right" 
+data-aos-easing="ease-in-sine" data-aos-delay="200"
+                 data-aos-duration="600">Welcome to AgriOnis</h1>
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing 
+elit. Autem eos tempora adipisci! Ipsa, autem nostrum, praesentium nulla omnis saepe vero aut enim asperiores fugit veritatis quia laudantium ipsum, id eligendi?
+</p>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    
+
+</section>
+
+
+
+
+</div>
+    
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
